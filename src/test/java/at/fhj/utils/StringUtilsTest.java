@@ -6,7 +6,6 @@ public class StringUtilsTest {
 
     @Test
     public void testIsPalindrome() {
-        StringUtils = new StringUtilsTest();
         String input = "madam";
         boolean result = StringUtils.isPalindrome(input);
         assert(result == true);
